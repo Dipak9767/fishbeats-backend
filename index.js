@@ -61,6 +61,10 @@ app.post('/login', async (req, res) => {
     }
 })
 
+app.get('/',async(req,res)=>{
+    res.json({message:'started'})
+})
+
 app.post('/addproduct', async (req, res) => {
     const { id, name, desc, price, category, quantity, imgUrl } = req.body
     try {
