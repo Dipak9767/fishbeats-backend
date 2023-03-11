@@ -255,6 +255,3 @@ app.get('/feedbacks', async (req, res) => {
     const feedbacks = await FeedBackModel.find();
     res.json(feedbacks)
 })
-//firake9767
-//dipakfirake9767
-//mongodb+srv://dipakfirake9767:<password>@cluster0.s0iws4o.mongodb.net/?retryWrites=true&w=majority
